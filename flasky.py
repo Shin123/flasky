@@ -11,12 +11,8 @@ if os.environ.get('FLASK_COVERAGE'):
     COV.start()
 
 app = create_app(os.getenv('FLASK_CONFIG') or 'default')
-print(os.getenv('FLASK_CONFIG') or 'default')
 migrate = Migrate(app, db)
 
-
-# if __name__ == '__main__':
-# app.run()
 
 @app.shell_context_processor
 def make_shell_context():

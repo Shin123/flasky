@@ -1,0 +1,11 @@
+-r common.txt
+certifi==2022.9.24
+chardet==3.0.4
+coverage==6.5.0
+faker==15.1.1
+httpie==3.2.1
+idna==3.4
+Pygments==2.13.0
+requests==2.28.1
+selenium==4.5.0
+urllib3==1.26.12
